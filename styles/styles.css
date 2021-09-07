@@ -211,15 +211,15 @@ a {
 	flex-direction: row;
 }
 
-.socials-grid img {
+.socials-wrapper img {
 	width: 10vh;
 	height: auto;
 	padding: 10px;
 }
 
-.socials-grid a {
+.socials-wrapper a {
 	transition: 0.3s;
 }
-.socials-grid a:hover {
+.socials-wrapper a:hover {
 	transform: scale(1.05);
 }
