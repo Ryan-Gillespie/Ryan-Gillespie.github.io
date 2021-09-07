@@ -54,7 +54,6 @@ a {
 
 @media only screen and (max-width: 360px) {
 	body { width: fit-content; }
-	section { padding: 5px; }
 }
 
 .blue {
@@ -207,16 +206,15 @@ a {
 	transform: scale(1.05);
 }
 
-.socials-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-	max-width: 100%;
-	gap: 10px;
+.socials-wrapper {
+	display: flex;
+	flex-direction: row;
 }
 
 .socials-grid img {
 	width: 10vh;
 	height: auto;
+	padding: 10px;
 }
 
 .socials-grid a {
