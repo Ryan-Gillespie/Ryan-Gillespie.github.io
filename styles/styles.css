@@ -50,6 +50,7 @@ a {
 	footer h1 { font-size: 24px; }
 	.typeflex { padding-top: 150px;	}
 	.socials-grid img { width: 50px; height: auto; }
+	.spacer { transform: scale(1, 1.05)}
 }
 
 @media only screen and (max-width: 360px) {
